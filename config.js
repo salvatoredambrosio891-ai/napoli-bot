@@ -3,7 +3,7 @@ import chalk from 'chalk';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
 
-global.botnumber = '';
+global.botnumber = '13033856144';
 global.confirmCode = '';
 global.nomebot = 'napoli-bot';
 global.packname = 'napoli-bot';

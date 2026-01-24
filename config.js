@@ -5,10 +5,10 @@ import { fileURLToPath } from 'url';
 
 global.botnumber = '';
 global.confirmCode = '';
-global.nomebot = '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭';
-global.packname = '𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭';
-global.author = '𝐌𝐝';
-global.vs = '8.8';
+global.nomebot = 'napoli-bot';
+global.packname = 'napoli-bot';
+global.author = 'salvatore';
+global.vs = '8.7';
 global.collab = 'Demon Slayer';
 global.wm = global.nomebot;
 global.wait = 'ⓘ 𝐂𝐚𝐫𝐢𝐜𝐚𝐦𝐞𝐧𝐭𝐨 ...';

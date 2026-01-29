@@ -3,7 +3,7 @@ import chalk from 'chalk';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
 
-global.botnumber = '13033856144';
+global.botnumber = '13604459236';
 global.confirmCode = '';
 global.nomebot = 'napoli-bot';
 global.packname = 'napoli-bot';
@@ -22,8 +22,8 @@ global.owner = [
   ['xxxxxxxxxx'],
   ['xxxxxxxxxx']
 ];
-global.mods = ['xxxxxxxxxx'];
-global.prems = ['xxxxxxxxxx', 'xxxxxxxxxx'];
+global.mods = ['393336413960'];
+global.prems = ['393336413960', '19184025124'];
 
 
 const pickRandom = arr => arr[Math.floor(Math.random() * arr.length)];

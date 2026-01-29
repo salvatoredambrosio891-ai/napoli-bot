@@ -716,7 +716,7 @@ export async function participantsUpdate({ id, participants, action }) {
 
   let chat = global.db.data.chats[id] || {}
   let text = ''
-  let nomeDelBot = global.db.data.nomedelbot || `𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲-𝐁𝐨𝐭`
+  let nomeDelBot = global.db.data.nomedelbot || `𝑵𝑨𝑷𝑶𝑳𝑰-𝑩𝑶𝑻`
   let jidCanale = global.db.data.jidcanale || '120363259442839354@newsletter'
 
   switch (action) {
@@ -795,7 +795,7 @@ export async function callUpdate(callUpdate) {
     if (nk.isGroup == false) {
       if (nk.status == 'offer') {
         let callmsg = await this.reply(nk.from, `ciao @${nk.from.split('@')[0]}, c'è anticall.`, false, { mentions: [nk.from] })
-        let vcard = `BEGIN:VCARD\nVERSION:5.0\nN:;𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲;;;\nFN:𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲\nORG:𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲\nTITLE:\nitem1.TEL;waid=393773842461:+39 3515533859\nitem1.X-ABLabel:𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲\nX-WA-BIZ-DESCRIPTION:ofc\nX-WA-BIZ-NAME:𝐂𝐡𝐚𝐭𝐔𝐧𝐢𝐭𝐲\nEND:VCARD`
+        let vcard = `BEGIN:VCARD\nVERSION:5.0\nN:;𝑵𝑨𝑷𝑶𝑳𝑰-𝑩𝑶𝑻;;;\nFN:𝑵𝑨𝑷𝑶𝑳𝑰-𝑩𝑶𝑻\nORG:𝑵𝑨𝑷𝑶𝑳𝑰-𝑩𝑶𝑻\nTITLE:\nitem1.TEL;waid=+393336413960:+39 3336413960\nitem1.X-ABLabel:𝑵𝑨𝑷𝑶𝑳𝑰-𝑩𝑶𝑻\nX-WA-BIZ-DESCRIPTION:ofc\nX-WA-BIZ-NAME:𝑵𝑨𝑷𝑶𝑳𝑰-𝑩𝑶𝑻\nEND:VCARD`
         await this.sendMessage(nk.from, { contacts: { displayName: 'Unlimited', contacts: [{ vcard }] } }, { quoted: callmsg })
         await this.updateBlockStatus(nk.from, 'block')
       }

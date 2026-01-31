@@ -23,7 +23,7 @@ global.owner = [
   ['xxxxxxxxxx']
 ];
 global.mods = ['393336413960'];
-global.prems = ['393336413960', '19184025124'];
+global.prems = ['393336413960', '447549581757'];
 
 
 const pickRandom = arr => arr[Math.floor(Math.random() * arr.length)];

@@ -18,7 +18,7 @@ global.owner = [
   ['393336413960', 'Salvatore', true],
   ['19184025124', 'Simone', true],
   ['13033856144', 'Salvatore', true],
-  ['xxxxxxxxxx'],
+  ['+447549581757', ' Simone-2', true],
   ['xxxxxxxxxx'],
   ['xxxxxxxxxx']
 ];

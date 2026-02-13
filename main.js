@@ -241,7 +241,7 @@ if (!methodCodeQR && !methodCode && !fs.existsSync(`./${authFile}/creds.json`)) 
 │  ☁️  Opzione 2: Codice 8 caratteri
 │
 ╰★────★────★────★────★
-               ꒷꒦ ✦ ChatUnity ✦ ꒷꒦
+               ꒷꒦ ✦ Napoli-bot ✦ ꒷꒦
 ╰♡꒷ ๑ ⋆˚₊⋆───ʚ˚ɞ───⋆˚₊⋆ ๑ ⪩﹐
 `;
     opzione = await question(menu + '\nInserisci la tua scelta ---> ');
@@ -467,7 +467,7 @@ async function connectionUpdate(update) {
     global.qrGenerated = false;
     global.connectionMessagesPrinted = {};
     if (!global.isLogoPrinted) {
-      const chatunity = chalk.hex('#3b0d95')(` ██████╗██╗  ██╗ █████╗ ████████╗██╗   ██╗███╗   ██╗██╗████████╗██╗   ██╗
+      const napoli = chalk.hex('#3b0d95')(` ██████╗██╗  ██╗ █████╗ ████████╗██╗   ██╗███╗   ██╗██╗████████╗██╗   ██╗
 ██╔════╝██║  ██║██╔══██╗╚══██╔══╝██║   ██║████╗  ██║██║╚══██╔══╝╚██╗ ██╔╝
 ██║     ███████║███████║   ██║   ██║   ██║██╔██╗ ██║██║   ██║    ╚████╔╝ 
 ██║     ██╔══██║██╔══██║   ██║   ██║   ██║██║╚██╗██║██║   ██║     ╚██╔╝  

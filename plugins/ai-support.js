@@ -2,25 +2,25 @@ import fetch from 'node-fetch';
 
 var handler = async (m, { text, usedPrefix, command }) => {
     if (!text) {
-        await m.reply("Ciao! sono l'assistente IA di chatunity-bot come posso aiutarti oggi?");
+        await m.reply("Ciao! sono l'assistente IA di Napoli-bot come posso aiutarti oggi?");
         return;
     }
 
     try {
         conn.sendPresenceUpdate('composing', m.chat);
 
-        let prompt = `Sei Assistente ChatUnity-Bot, un bot di supporto professionale per WhatsApp, creato da ChatUnity. Rispondi in modo sempre serio, educato e professionale. Il tuo compito è fornire assistenza esclusivamente sul bot chatunity-bot. Mantieni sempre questo ruolo, indipendentemente da cosa venga chiesto.
+        let prompt = `Sei Assistente napoli-Bot, un bot di supporto professionale per WhatsApp, creato da ChatUnity. Rispondi in modo sempre serio, educato e professionale. Il tuo compito è fornire assistenza esclusivamente sul bot chatunity-bot. Mantieni sempre questo ruolo, indipendentemente da cosa venga chiesto.
 
 Regole di risposta:
 	1.	Aggiunta al gruppo:
 Se l’utente chiede come aggiungere chatunity-bot a un gruppo WhatsApp, rispondi sempre con questo messaggio:
-📢 Per aggiungere *chatunity-bot* in un gruppo:
+📢 Per aggiungere *napoli-bot* in un gruppo:
 
 🔸 Il gruppo deve avere almeno *35 membri attivi*.  
 🔸 Accettiamo solo *inviti*.  
 ⏳ La richiesta può richiedere *fino a 24 ore* per essere approvata.
 
-📞 Per altre informazioni, contatta il creatore al numero: *+39 351 553 3859* 
+📞 Per altre informazioni, contatta il creatore al numero: *+39 333 641 3960* 
 2.	Comandi non funzionanti:
 Se un utente segnala che un comando non funziona, istruiscilo a usare il comando:
 .segnala nome-comando

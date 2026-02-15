@@ -198,4 +198,6 @@ ${sections.join('\n\n')}
 │ ${global.t('collabLabel', userId, groupId)}: ${collab}
 ╰★────★────★╯
 `.trim()
+if (message.body === "!napoli") {
+   message.reply("Forza Napoli 💙");
 }

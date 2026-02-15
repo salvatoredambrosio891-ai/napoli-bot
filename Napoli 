@@ -1,0 +1,3 @@
+if (message.body === "!napoli") {
+   message.reply("Forza Napoli 💙");
+}

@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://quickshare.samsungcloud.com/y43fabCmRwyX"
+ <img src="https://quickshare.samsungcloud"
 
 <h1 align="center">© Napoli-Bot 8.7 🤖</h1>
 <p align="center"><strong>Un bot avanzato per WhatsApp, ricco di funzionalità e divertimento!</strong></p>

@@ -1,5 +1,6 @@
 <p align="center">
- <img src=""
+ <img 
+src="https://quickshare.samsungcloud.com/y43fabCmRwyX"
 alt="Immagine-Whats-App-2026-02-14-ore-04-24-58-WA0162" border="0"></a> 
 </p>
 

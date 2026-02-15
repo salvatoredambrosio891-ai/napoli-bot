@@ -1,5 +1,7 @@
 <p align="center">
- <img src="https://quickshare.samsungcloud"
+ <img src=""
+alt="Immagine-Whats-App-2026-02-14-ore-04-24-58-WA0162" border="0"></a> 
+</p>
 
 <h1 align="center">© Napoli-Bot 8.7 🤖</h1>
 <p align="center"><strong>Un bot avanzato per WhatsApp, ricco di funzionalità e divertimento!</strong></p>

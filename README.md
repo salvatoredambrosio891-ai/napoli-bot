@@ -1,7 +1,5 @@
 <p align="center">
- <img 
-src="https://quickshare.samsungcloud.com/y43fabCmRwyX"
-alt="Immagine-Whats-App-2026-02-14-ore-04-24-58-WA0162" border="0"></a> 
+ <img src="https://files.catbox.moe/vlhvzg.jpeg" alt="Immagine-Whats-App-2025-10-23-ore-19-58-44-" border="0"></a> 
 </p>
 
 <h1 align="center">© Napoli-Bot 8.7 🤖</h1>

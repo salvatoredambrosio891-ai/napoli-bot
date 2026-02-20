@@ -1,21 +1,34 @@
+import axios from 'axios';
+
 let handler = async (m, { conn }) => {
 
-let testo = `
-🔥💙 *FORZA NAPOLI!* 💙🔥
+  try {
 
-⚽ *Prossima Partita* ⚽
-🏟 Stadio: New Balance Arena
-🆚 Avversario: Atalanta
-📅 Data: 22 Febbraio 2026
-⏰ Ora: 15:00
+    const res = await axios.get('https://api.football-data.org/v4/teams/113/matches?status=SCHEDULED&limit=1', {
+      headers: { 'X-Auth-Token': 'abc123xyz456' }
+    });
 
-💪 Tutti pronti a tifare per il nostro Napoli!
-💙🤍 *#ForzaNapoliSempre* 🤍💙
+    const match = res.data.matches[0];
+
+    let casa = match.homeTeam.name;
+    let trasferta = match.awayTeam.name;
+    let data = match.utcDate;
+
+    let partita = `
+⚽ *Prossima Partita Napoli*
+
+🏟️ ${casa} vs ${trasferta}
+📅 ${new Date(data).toLocaleDateString('it-IT')}
+🕒 ${new Date(data).toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' })}
 `;
 
-await conn.reply(m.chat, testo, m);
+    conn.sendMessage(m.chat, { text: partita });
 
-};
+  } catch (e) {
+    conn.sendMessage(m.chat, { text: '❌ Errore nel caricare la partita.' });
+  }
+
+}
 
 handler.help = ['partita']
 handler.tags = ['napoli']

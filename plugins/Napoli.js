@@ -1,34 +1,21 @@
-import axios from 'axios';
-
+// plugins/partita.js
 let handler = async (m, { conn }) => {
-
   try {
-
-    const res = await axios.get('https://api.football-data.org/v4/teams/113/matches?status=SCHEDULED&limit=1', {
-      headers: { 'X-Auth-Token': 'abc123xyz456' }
-    });
-
-    const match = res.data.matches[0];
-
-    let casa = match.homeTeam.name;
-    let trasferta = match.awayTeam.name;
-    let data = match.utcDate;
-
-    let partita = `
+    // 🔹 Qui cambi tu la prossima partita
+    let prossimaPartita = `
 ⚽ *Prossima Partita Napoli*
-
-🏟️ ${casa} vs ${trasferta}
-📅 ${new Date(data).toLocaleDateString('it-IT')}
-🕒 ${new Date(data).toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' })}
+🏟️ Napoli vs Atalanta
+📅 22 Febbraio 2026
+🕒 15:00
 `;
 
-    conn.sendMessage(m.chat, { text: partita });
+    return conn.sendMessage(m.chat, { text: prossimaPartita });
 
   } catch (e) {
-    conn.sendMessage(m.chat, { text: '❌ Errore nel caricare la partita.' });
+    console.error(e);
+    return conn.sendMessage(m.chat, { text: '❌ Errore nel caricare la partita.' });
   }
-
-}
+};
 
 handler.help = ['partita']
 handler.tags = ['napoli']

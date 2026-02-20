@@ -1,21 +1,21 @@
-let handler = async (m, { conn }) => {
-
-conn.sendMessage(m.chat, {
-text: `
+let handler = async (m, { conn, usedPrefix, command }) => {
+    // Messaggio della partita
+    let testo = `
 🔥💙 *FORZA NAPOLI!* 💙🔥
 
 ⚽ *Prossima Partita* ⚽
-🏟 Stadio: ${stadio}
-🆚 Avversario: ${avversario}
-📅 Data: ${data}
-⏰ Ora: ${ora}
+🏟 Stadio: New Balance Arena
+🆚 Avversario: Atalanta
+📅 Data: 22 Febbraio 2026
+⏰ Ora: 15:00
 
 💪 Tutti pronti a tifare per il nostro Napoli!
 💙🤍 *#ForzaNapoliSempre* 🤍💙
-`
-})
+    `;
 
-}
+    // Invia il messaggio nel gruppo
+    await conn.sendMessage(m.chat, { text: testo });
+};
 
-handler.command = ['partita']
-export default handler
+// Imposta il comando
+handler.command = /^(partita)$/i;

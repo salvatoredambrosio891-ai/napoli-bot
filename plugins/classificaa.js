@@ -1,9 +1,9 @@
 let handler = async (m, { conn }) => {
 
 let classifica = `
-╔══════════════════════╗
-     🏆 SERIE A 🇮🇹
-╚══════════════════════╝
+    ╔══════════════════╗
+       🏆 SERIE A 🇮🇹
+    ╚══════════════════╝
 
 🔝 ZONA CHAMPIONS
 🥇 Inter        61 pt  (+39)

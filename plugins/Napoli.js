@@ -1,6 +1,6 @@
-let handler = async (m, { conn, usedPrefix, command }) => {
-    // Messaggio della partita
-    let testo = `
+let handler = async (m, { conn }) => {
+
+let testo = `
 🔥💙 *FORZA NAPOLI!* 💙🔥
 
 ⚽ *Prossima Partita* ⚽
@@ -11,11 +11,14 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 
 💪 Tutti pronti a tifare per il nostro Napoli!
 💙🤍 *#ForzaNapoliSempre* 🤍💙
-    `;
+`;
 
-    // Invia il messaggio nel gruppo
-    await conn.sendMessage(m.chat, { text: testo });
+await conn.reply(m.chat, testo, m);
+
 };
 
-// Imposta il comando
+handler.help = ['partita']
+handler.tags = ['napoli']
 handler.command = /^(partita)$/i;
+
+export default handler;

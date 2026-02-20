@@ -12,15 +12,15 @@ let handler = async (m, { conn }) => {
 8️⃣ Bologna – 33 pt
 9️⃣ Lazio – 33 pt
 🔟 Sassuolo – 32 pt
-11️⃣ Udinese – 32 pt
-12️⃣ Parma – 29 pt
-13️⃣ Cagliari – 28 pt
-14️⃣ Torino – 27 pt
-15️⃣ Cremonese – 24 pt
-16️⃣ Genoa – 24 pt
-17️⃣ Lecce – 24 pt
-18️⃣ Fiorentina – 21 pt
-19️⃣ Pisa – 15 pt
+1️⃣1️⃣ Udinese – 32 pt
+1️⃣2️⃣ Parma – 29 pt
+1️⃣3️⃣ Cagliari – 28 pt
+1️⃣4️⃣ Torino – 27 pt
+1️⃣5️⃣ Cremonese – 24 pt
+1️⃣6️⃣ Genoa – 24 pt
+1️⃣7️⃣ Lecce – 24 pt
+1️⃣8️⃣ Fiorentina – 21 pt
+1️⃣9️⃣ Pisa – 15 pt
 2️⃣0️⃣ Hellas Verona – 15 pt
 `;
 

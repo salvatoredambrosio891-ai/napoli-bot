@@ -1,17 +1,23 @@
-from pyrogram import Client, filters
+let handler = async (m, { conn, usedPrefix, command }) => {
+    // Messaggio della partita
+    let testo = `
+🔥💙 *FORZA NAPOLI!* 💙🔥
 
-@app.on_message(filters.command("partita") & filters.group)
-def partita(client, message):
-    testo = (
-        "🔥💙 **FORZA NAPOLI!** 💙🔥\n\n"
-        "⚽ **Prossima Partita** ⚽\n"
-        "🏟 Stadio: Diego Armando Maradona\n"
-        "🆚 Avversario: Atalanta\n"
-        "📅 Data: 22 Febbraio 2026\n"
-        "⏰ Ora: 15:00\n\n"
-        "💪 Tutti pronti a tifare per il nostro Napoli!\n"
-        "💙💛 **#ForzaNapoliSempre** 💛💙"
-    )
-    message.reply_text(testo, parse_mode="markdown")
+⚽ *Prossima Partita* ⚽
+🏟 Stadio: Diego Armando Maradona
+🆚 Avversario: Atalanta
+📅 Data: 22 Febbraio 2026
+⏰ Ora: 15:00
 
-app.run()
+💪 Tutti pronti a tifare per il nostro Napoli!
+💙💛 *#ForzaNapoliSempre* 💛💙
+    `;
+
+    // Invia il messaggio nel gruppo
+    await conn.sendMessage(m.chat, { text: testo });
+};
+
+// Imposta il comando
+handler.command = /^partita$/i; 
+handler.group = true; // Funziona solo nei gruppi
+export default handler;

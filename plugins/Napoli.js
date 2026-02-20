@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 🔥💙 *FORZA NAPOLI!* 💙🔥
 
 ⚽ *Prossima Partita* ⚽
-🏟 Stadio: Diego Armando Maradona
+🏟 Stadio: New Balance Arena
 🆚 Avversario: Atalanta
 📅 Data: 22 Febbraio 2026
 ⏰ Ora: 15:00

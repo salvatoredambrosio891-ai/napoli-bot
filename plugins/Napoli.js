@@ -18,4 +18,4 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 };
 
 // Imposta il comando
-handler.command = ['partita'];
+handler.command = /^(partita)$/i;;

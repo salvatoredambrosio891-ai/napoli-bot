@@ -12,7 +12,7 @@ END:VCARD`.replace(/\n/g, '\r\n');
 
     await conn.sendMessage(m.chat, { 
         contacts: { 
-            displayName: '👥 ChatUnity Staff', 
+            displayName: '👥 Napoli Staff', 
             contacts: [
                 { vcard: createVCard('Creatore', '393336413960', 'Founder') },
                 { vcard: createVCard('co-founder', '393509368693', 'co-founder') },

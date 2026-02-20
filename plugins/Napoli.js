@@ -10,7 +10,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ⏰ Ora: 15:00
 
 💪 Tutti pronti a tifare per il nostro Napoli!
-💙💛 *#ForzaNapoliSempre* 💛💙
+💙🤍 *#ForzaNapoliSempre* 🤍💙
     `;
 
     // Invia il messaggio nel gruppo

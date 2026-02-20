@@ -1,31 +1,19 @@
+import axios from 'axios';
+
 let handler = async (m, { conn }) => {
-  const classifica = `
-📊 *Classifica Serie A 2025/26* 📊
 
-1️⃣ Inter – 61 pt
-2️⃣ Milan – 54 pt
-3️⃣ Napoli – 50 pt
-4️⃣ Roma – 47 pt
-5️⃣ Juventus – 46 pt
-6️⃣ Como – 42 pt
-7️⃣ Atalanta – 42 pt
-8️⃣ Bologna – 33 pt
-9️⃣ Lazio – 33 pt
-🔟 Sassuolo – 32 pt
-1️⃣1️⃣ Udinese – 32 pt
-1️⃣2️⃣ Parma – 29 pt
-1️⃣3️⃣ Cagliari – 28 pt
-1️⃣4️⃣ Torino – 27 pt
-1️⃣5️⃣ Cremonese – 24 pt
-1️⃣6️⃣ Genoa – 24 pt
-1️⃣7️⃣ Lecce – 24 pt
-1️⃣8️⃣ Fiorentina – 21 pt
-1️⃣9️⃣ Pisa – 15 pt
-2️⃣0️⃣ Hellas Verona – 15 pt
-`;
+  try {
 
-  conn.sendMessage(m.chat, { text: classifica });
+    const res = await axios.get('https://api.football-data.org/v4/competitions/SA/standings', {
+      headers: { 'X-Auth-Token': 'abc123xyz456' }
+    });
 
+    const standings = res.data.standings[0].table;
+
+    let testo = '📊 *Classifica Serie A* 📊\n\n';
+
+    standings.forEach((team, i) => {
+      testo += `${i + 1}️⃣ ${team.team.name
 
 handler.help = ['classifica']
 handler.tags = ['napoli']

@@ -33,7 +33,7 @@ let classifica = `
 19️⃣ Pisa       15 pt
 20️⃣ Verona     12 pt
 
-═══════════════════════
+    ═══════════════════
 `
 
 conn.sendMessage(m.chat, { text: classifica })

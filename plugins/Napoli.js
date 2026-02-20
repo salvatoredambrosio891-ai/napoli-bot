@@ -18,6 +18,6 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 };
 
 // Imposta il comando
-handler.command = /^partita$/i; 
+handler.command = /^(partita)$/i;
 handler.group = true; // Funziona solo nei gruppi
 export default handler;

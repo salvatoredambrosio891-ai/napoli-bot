@@ -14,7 +14,7 @@ END:VCARD`.replace(/\n/g, '\r\n');
         contacts: { 
             displayName: '👥 ChatUnity Staff', 
             contacts: [
-                { vcard: createVCard('Creatore', '393773842461', 'Founder') },
+                { vcard: createVCard('Creatore', '393336413960', 'Founder') },
                 { vcard: createVCard('co-founder', '393509368693', 'co-founder') },
                 { vcard: createVCard('Finanziatore', '393803482529', 'Financer') },
                 { vcard: createVCard('SMM & MODDER', '393929139611', 'SMM & MODDER') },

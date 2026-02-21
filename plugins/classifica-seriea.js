@@ -25,6 +25,6 @@ let handler = async (m, { conn }) => {
 
 handler.help = ['classifica']
 handler.tags = ['calcio']
-handler.command = ['serieaclassifica']
+handler.command = ['classifica']
 
 export default handler

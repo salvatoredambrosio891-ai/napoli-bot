@@ -49,7 +49,7 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
 
 handler.command = ['svuota'];
 handler.group = true;
-handler.botAdmin = true;
+handler.botowner = true;
 handler.owner = true;
 
 export default handler;

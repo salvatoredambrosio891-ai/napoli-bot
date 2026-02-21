@@ -48,8 +48,8 @@ let handler = async (m, { conn, participants, isBotAdmin }) => {
 };
 
 handler.command = ['svuota'];
-handler.group = true;
-handler.botowner = true;
-handler.owner = true;
+handler.group = true;    // solo gruppi
+handler.botAdmin = true; // bot deve essere admin
+handler.owner = true;    // solo owner possono eseguire
 
 export default handler;

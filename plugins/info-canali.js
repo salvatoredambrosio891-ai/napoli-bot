@@ -2,20 +2,20 @@ const handler = async (m, { conn }) => {
   const text = `
 ╭━〔 *🌐 CANALI UFFICIALI* 〕━┈⊷
 ┃─────────────·๏
-┃✨ *ChatUnity* 
-┃🔗 https://whatsapp.com/channel/0029VaZVlJZHwXb8naJBQN0J
+┃✨ *Napoli* 
+┃🔗 https://whatsapp.com/channel/0029VbBVRIl9Gv7ZcEAhey2g
 ┃
-┃🤖 *ChatUnity-Bot*
-┃🔗 https://whatsapp.com/channel/0029Vb32UwhA89MZtd6WRS3G
+┃🤖 *Napoli-Bot*
+┃🔗 https://whatsapp.com/channel/0029VbBVRIl9Gv7ZcEAhey2g
 ┃
-┃🌍 *ChatUnity Server*
-┃🔗 https://whatsapp.com/channel/0029VbA4h0pKmCPS5ozJsm3j
+┃🌍 *Napoli-Bot Server*
+┃🔗  https://whatsapp.com/channel/0029VbBVRIl9Gv7ZcEAhey2g
 ┃╰─────────────·๏
 ╰━━━━━━━━━━━━━━━━━━━⊷
 
 *Unisciti ai nostri canali per restare aggiornato, ricevere supporto e scoprire tutte le novità!*
 
-💎 _Powered by ChatUnity_
+💎 _Powered by Napoli-Bot 
 `.trim();
 
   await conn.sendMessage(m.chat, {

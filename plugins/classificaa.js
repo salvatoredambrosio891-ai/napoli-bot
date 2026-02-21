@@ -31,6 +31,6 @@ let handler = async (m, { conn }) => {
 
 handler.help = ['classifica']
 handler.tags = ['calcio']
-handler.command = ['classificabot']
+handler.command = ['classificanapoli']
 
 module.exports = handler

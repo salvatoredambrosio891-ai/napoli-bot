@@ -6,7 +6,7 @@ let handler = async (m, { conn }) => {
     let response = await fetch(
       'https://api.football-data.org/v4/competitions/SA/standings',
       {
-        headers: { 'X-Auth-Token': ''abc123xyz456'' }
+        headers: { 'X-Auth-Token': 'abc123xyz456' }
       }
     )
 

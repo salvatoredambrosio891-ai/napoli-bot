@@ -13,7 +13,7 @@ let handler = async (m, { conn }) => {
     let data = await response.json()
     let table = data.standings[0].table
 
-    let text = '🏆 CLASSIFICA SERIE A 🏆\n\n'
+    let text = '🏆💙 CLASSIFICA SERIE A 💙🏆\n\n'
 
     table.forEach(team => {
       text += `${team.position}. ${team.team.name}\n`

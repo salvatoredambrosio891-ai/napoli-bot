@@ -4,9 +4,9 @@ let handler = async (m, { conn }) => {
     // 🔹 Qui cambi tu la prossima partita
     let prossimaPartita = `
 ⚽ *Prossima Partita Napoli*
-🏟️ Napoli vs Atalanta
-📅 22 Febbraio 2026
-🕒 15:00
+🏟️ Verona vs Napoli
+📅 28 Febbraio 2026
+🕒 18:00
 `;
 
     return conn.sendMessage(m.chat, { text: prossimaPartita });

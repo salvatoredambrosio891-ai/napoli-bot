@@ -4,7 +4,7 @@ let handler = async (m, { conn }) => {
     // 🔹 Qui cambi tu la prossima partita
     let prossimaPartita = `
 ⚽ *Prossima Partita Napoli*
-🏟️ Napoli vs torino
+🏟️ Napoli vs Torino
 📅 06 marzo 2026
 🕒 20:45
 `;

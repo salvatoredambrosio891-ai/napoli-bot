@@ -7,7 +7,7 @@ let handler = async (m, { conn }) => {
 VERSION:3.0
 FN: Salvatore 
 ORG: Salvatore
-TEL;type=CELL;type=VOICE;waid=‪393336413960:‪+39 333 641 3960
+TEL;type=CELL;type=VOICE;waid=‪393336413960:‪+39 333 641 3960
 END:VCARD`
 
 
@@ -46,8 +46,8 @@ END:VCARD`
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                   display_text: "『 📸 』 Instagram",
-                  url: "https://instagram.com/yyktv.vale",
-                  merchant_url: "https://instagram.com/yyktv.vale"
+                  url: "https://www.instagram.com/forza_napoli2025?igsh=MWh2ZGdjcnNpaTFqdA==",
+                  merchant_url: "https://www.instagram.com/forza_napoli2025?igsh=MWh2ZGdjcnNpaTFqdA=="
                 })
               }
             ]

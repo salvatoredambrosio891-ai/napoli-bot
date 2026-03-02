@@ -38,8 +38,8 @@ END:VCARD`
                 name: "cta_url",
                 buttonParamsJson: JSON.stringify({
                   display_text: "『 💻 』 GitHub",
-                  url: "https://github.com/chatunitycenter",
-                  merchant_url: "https://github.com/chatunitycenter"
+                  url: "https://github.com/salvatoredambrosio891-ai",
+                  merchant_url: "https://github.com/salvatoredambrosio891-ai"
                 })
               },
               {

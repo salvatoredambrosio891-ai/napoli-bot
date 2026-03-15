@@ -3,9 +3,7 @@ let handler = async (m, { conn }) => {
   try {
     let forzaNapoli = `
 💙💙 *SEMPRE FORZA NAPOLI!* 💙💙
-⚽ Sempre avanti, azzurri! ⚽
-🔥 Non mollare mai! 🔥
-💪 Grinta, passione e vittoria! 💪
+Il Napoli è il nostro cuore azzurro non si arrende Napoli lotta e vincerà! ⚽💙💪🎖🏆🥇.
 `;
 
     return conn.sendMessage(m.chat, { text: forzaNapoli });

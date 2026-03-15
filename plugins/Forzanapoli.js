@@ -2,7 +2,10 @@
 let handler = async (m, { conn }) => {
   try {
     let forzaNapoli = `
-*Forza Napoli, sempre avanti💙⚽!*
+💙💙💙 *FORZA NAPOLI!* 💙💙💙
+⚽ Sempre avanti, azzurri! ⚽
+🔥 Non mollare mai! 🔥
+💪 Grinta, passione e vittoria! 💪
 `;
 
     return conn.sendMessage(m.chat, { text: forzaNapoli });
@@ -13,8 +16,8 @@ let handler = async (m, { conn }) => {
   }
 };
 
-handler.help = ['forzaNapoli']
-handler.tags = ['napoli']
-handler.command = /^\forzaNapoli$/i; // qui il punto è incluso
+handler.help = ['forzaNapoli'];
+handler.tags = ['napoli'];
+handler.command = /^(forzanapoli)$/i;
 
 export default handler;

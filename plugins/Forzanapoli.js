@@ -2,7 +2,7 @@
 let handler = async (m, { conn }) => {
   try {
     let forzaNapoli = `
-💙💙💙 *SEMPRE FORZA NAPOLI!* 💙💙💙
+💙💙 *SEMPRE FORZA NAPOLI!* 💙💙
 ⚽ Sempre avanti, azzurri! ⚽
 🔥 Non mollare mai! 🔥
 💪 Grinta, passione e vittoria! 💪

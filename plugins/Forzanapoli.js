@@ -15,6 +15,6 @@ let handler = async (m, { conn }) => {
 
 handler.help = ['forzaNapoli']
 handler.tags = ['napoli']
-handler.command = /^\.forzaNapoli$/i; // qui il punto è incluso
+handler.command = /^\forzaNapoli$/i; // qui il punto è incluso
 
 export default handler;

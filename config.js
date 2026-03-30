@@ -20,6 +20,8 @@ global.owner = [
   ['16625545197', 'Simone', true],
   ['393517226229', 'Vincenzo', true],
   ['393759336414', 'Filippo', true],
+  ['14159817603', 'Mattia', true],
+  ['584161819007', 'Antonio', true],
 ];
 global.mods = ['393336413960'];
 global.prems = ['393336413960', '447549581757'];

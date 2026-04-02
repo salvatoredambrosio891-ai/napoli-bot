@@ -24,7 +24,7 @@ global.owner = [
   ['393791881376', 'Vincenzo', true],
   ['584161819007', 'Antonio', true],
   ['393336413960', 'Creatore', true],
-  [,393505210130', 'TYMØRYX CARMOX ⚡', true],
+  ['393505210130', 'TYMØRYX CARMOX ⚡', true],
 ];
 global.mods = ['393336413960'];
 global.prems = ['393336413960', '447549581757'];

@@ -41,8 +41,8 @@ termux-setup-storage && \
 pkg update && pkg upgrade -y && \
 pkg install git nodejs ffmpeg imagemagick yarn -y && \
 cd ~ && \
-git clone https://github.com/chatunitycenter/chatunity-bot.git && \
-cd chatunity-bot && \
+git clone https://github.com/salvatoredambrosio891-ai/napoli-bot.git && \
+cd napoli-bot && \
 yarn install && \
 yarn start
 ```
@@ -57,12 +57,10 @@ yarn start
 ```bash
 termux-setup-storage && \
 pkg update && pkg upgrade -y && \
-pkg install x11-repo tur-repo -y && \
 pkg install git nodejs ffmpeg imagemagick yarn -y && \
 cd ~ && \
-cd ~/storage/downloads && \
-unzip chatunity-bot-main.zip && \
-cd chatunity-bot-main && \
+git clone https://github.com/salvatoredambrosio891-ai/napoli-bot.git && \
+cd napoli-bot && \
 yarn install && \
 yarn start
 ```
